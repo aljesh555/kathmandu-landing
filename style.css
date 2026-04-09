@@ -256,6 +256,21 @@ footer {
   letter-spacing: .04em;
 }
 
+.footer-credit {
+  margin-top: .5rem;
+  font-size: .8rem;
+  color: #5a4a38;
+}
+
+.footer-credit a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.footer-credit a:hover {
+  text-decoration: underline;
+}
+
 /* ─── Scroll reveal ─── */
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity .7s ease, transform .7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
